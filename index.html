@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastermind Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Mastermind Game</h1>
+        <p>Guess the secret code (4 unique numbers between 1-6).</p>
+
+        <div id="game-status"></div>
+
+        <form id="guess-form">
+            <input type="text" id="guess-input" placeholder="Enter 4 numbers (e.g. 1 3 5 2)" required>
+            <button type="submit">Submit Guess</button>
+        </form>
+
+        <div id="feedback"></div>
+
+        <button id="restart-btn" style="display: none;">Restart Game</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
